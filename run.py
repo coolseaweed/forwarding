@@ -10,7 +10,7 @@ OUTPUT_TEMPLATE = "output/template.xlsx"
 OUTPUT_FILLED = "output/output_filled.xlsx"
 START_ROW_TEMPLATE = 7  # Starting row in the output template
 DATA_BLOCK_START_ROW = 19 # First row of the data block in input files
-DATA_BLOCK_END_ROW = 28   # Last row of the data block in input files
+DATA_BLOCK_END_ROW = 1000   # Last row of the data block in input files
 
 # --- Setup Logging ---
 # Use INFO for general progress, WARNING for recoverable issues, ERROR for failures
